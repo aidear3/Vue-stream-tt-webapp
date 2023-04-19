@@ -21,7 +21,7 @@
       },
       scale: {
         type: Number,
-        default: 1,
+        default: 1
       },
     },
     computed: {
