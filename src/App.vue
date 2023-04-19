@@ -26,7 +26,7 @@ export default defineComponent({
 		NavBar,
 		NavigationBar,
 		TopBar,
-		PackagesModal,
+		PackagesModal
 	},
 	data() {
 		return {
