@@ -27,7 +27,6 @@
 
 <script >
 
-// import { defineComponent } from 'vue';
 import Slider from '../components/Slider.vue';
 import CardEvents from '../components/CardEvents.vue';
 import CardLive from '../components/CardLive.vue';
