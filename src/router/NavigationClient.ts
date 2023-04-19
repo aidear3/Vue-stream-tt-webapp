@@ -12,12 +12,6 @@ export class CustomNavigationClient extends NavigationClient{
         this.router = router;
     }
 
-    /**
-     * Navigates to other pages within the same web application
-     * You can use the useHistory hook provided by react-router-dom to take advantage of client-side routing
-     * @param url 
-     * @param options 
-     */
     async navigateInternal(url: string, options: NavigationOptions) {
         const relativePath = url.replace(window.location.origin, '');
         if (options.noHistory) {
