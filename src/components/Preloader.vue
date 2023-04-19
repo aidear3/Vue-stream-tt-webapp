@@ -17,7 +17,7 @@
     props: {
       color: {
         type: String,
-        default: '#e2e2e2',
+        default: '#e2e2e2'
       },
       scale: {
         type: Number,
