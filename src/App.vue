@@ -20,6 +20,7 @@ import NavigationBar from './components/NavigationBar.vue';
 import TopBar from './components/TopBar.vue';
 import PackagesModal from "./components/PackagesModal.vue";
 import {BACKGROUND_COLOR_1, FONT_COLOR_1} from '@/mainConfig';
+
 export default defineComponent({
 	name: 'App',
 	components: {
