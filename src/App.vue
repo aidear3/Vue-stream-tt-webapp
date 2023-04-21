@@ -1,8 +1,5 @@
 <template>
 	<v-layout @click="bodyClick()" :style="backgroundStyle">
-		<!-- <v-app-bar>
-			<NavBar /> 
-		</v-app-bar> -->
 		<TopBar class="" @showModal="onShowModal" @navigationChange="changeNavigationState"/>
 		<v-main style="--v-layout-left:0px;--v-layout-top:0px;">
 			<NavigationBar></NavigationBar>
