@@ -15,7 +15,6 @@ import { CustomNavigationClient } from "./router/NavigationClient";
 const navigationClient = new CustomNavigationClient(router);
 msalInstance.setNavigationClient(navigationClient);
 
-// Account selection logic is app dependent. Adjust as needed for different use cases.
 const accounts = msalInstance.getAllAccounts();
 if (accounts.length > 0) {
     msalInstance.setActiveAccount(accounts[0]);
