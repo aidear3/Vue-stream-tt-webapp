@@ -36,6 +36,7 @@ app.use(router);
 app.use(store, key);
 app.use(i18n);
 app.use(msalPlugin, msalInstance);
+
 router.isReady().then(() => {
   // Waiting for the router to be ready prevents race conditions when returning from a loginRedirect or acquireTokenRedirect
   app.mount('#app');
