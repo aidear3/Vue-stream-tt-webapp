@@ -65,7 +65,6 @@
 import CardLive from '../assets/img/card-live.png'; 
 import LiveLogo from '../assets/img/icon-live-logo-blue.png';  
 import LiveStatus from '../assets/img/live-status.png';  
-
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 import "swiper/css/pagination"; 
@@ -73,7 +72,6 @@ import "swiper/css/navigation";
 import "swiper/css/keyboard";
 import "swiper/css/scrollbar";
 
-// import required modules
 import { Pagination, Keyboard, Navigation, Scrollbar, A11y } from "swiper"; 
 import { number } from '@intlify/core-base';
 
