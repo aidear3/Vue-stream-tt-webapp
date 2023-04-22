@@ -1,6 +1,7 @@
 /**
  * Graph data about the user.
  */
+
 type UserInfo = {
     businessPhones?: Array<string>,
     displayName?: string,
