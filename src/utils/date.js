@@ -28,7 +28,6 @@ export function changeTimeFormatEST(inputDate) {
         let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
         let fullMonthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         // let output = months[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear() + " " + (date.getHours() % 12 || 12) + ":" + date.getMinutes() + (date.getHours() >= 12 ? " PM" : " AM");
-        // return output;
 
         input = input.replace(" ", "T") + "Z";
         const givenDate = new Date(input);
