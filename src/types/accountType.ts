@@ -50,7 +50,7 @@ export default interface Account {
 
     profiles: Array<Profile>,
     messages: Array<Message>
-  }
+}
 
 export default interface AccountType{
   Account: Account
