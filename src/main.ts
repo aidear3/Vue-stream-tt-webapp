@@ -11,7 +11,6 @@ import { msalInstance } from "./mainConfig";
 import { AuthenticationResult, EventType } from "@azure/msal-browser";
 import { CustomNavigationClient } from "./router/NavigationClient";
 
-// The next 2 lines are optional. This is how you configure MSAL to take advantage of the router's navigate functions when MSAL redirects between pages in your app
 const navigationClient = new CustomNavigationClient(router);
 msalInstance.setNavigationClient(navigationClient);
 
