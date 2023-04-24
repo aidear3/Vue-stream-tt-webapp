@@ -33,7 +33,6 @@
                                 This is very long
                             </h3>
                             <v-img :src="LiveStatus" width="56" height="25" class="ml-10" style="float:right">
-
                             </v-img>
                         </div>
                         
