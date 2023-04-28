@@ -10,7 +10,6 @@
                 <v-img v-if="!item.package_status" :src="PremiumRibbonIcon" :class="item.package_status ? active_vod : disabled_vod" class="premium-ribbon">
                 </v-img>
             </v-img>
-
         </swiper-slide>
         <template v-slot:button-prev>
             <div @click="$refs.swiper.swiperInstance.slidePrev()" class=" swiper-top-position swiper-button-prev"></div>
