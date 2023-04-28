@@ -1,9 +1,6 @@
 import { NavigationClient, NavigationOptions } from "@azure/msal-browser";
 import { Router } from "vue-router";
 
-/**
- * This is an example for overriding the default function MSAL uses to navigate to other urls in your webpage
- */
 export class CustomNavigationClient extends NavigationClient{
     private router: Router;
 
